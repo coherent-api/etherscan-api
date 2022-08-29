@@ -124,8 +124,6 @@ type ContractSource struct {
 	ABI                  string `json:"ABI"`
 	ContractName         string `json:"ContractName"`
 	CompilerVersion      string `json:"CompilerVersion"`
-	OptimizationUsed     int    `json:"OptimizationUsed,string"`
-	Runs                 int    `json:"Runs,string"`
 	ConstructorArguments string `json:"ConstructorArguments"`
 	EVMVersion           string `json:"EVMVersion"`
 	Library              string `json:"Library"`
@@ -174,4 +172,3 @@ type Log struct {
 	LogIndex        string   `json:"logIndex"`
 	Removed         bool     `json:"removed"`
 }
-
